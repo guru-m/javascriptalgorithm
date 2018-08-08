@@ -16,5 +16,5 @@ function reverseWord(string){
 return reverseWordArray.join(' ');
 }
 
-console.log(reverseWord('This is a string of words'));
-console.log(reverseWord('javascript coding'));
+console.log('Reverse word senario : ' + reverseWord('This is a string of words'));
+console.log('Reverse word : ' + reverseWord('javascript coding'));

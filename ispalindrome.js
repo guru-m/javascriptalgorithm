@@ -1,5 +1,5 @@
 function isPalindrome(string){
-    alert('');
+    // alert('');
 string =string.toLowerCase();
 var charecterArray=string.split(' ');
 var validCharecter='abcdefghijklmnopqrstuvwxyz';

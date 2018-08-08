@@ -14,6 +14,6 @@ return array;
 
 }
 
-console.log(bubbleSort([5,3,8,2,1,4]));
-console.log(bubbleSort([20,20,3,56,1,22,22]));
-console.log(bubbleSort([20,-20,3,-56,1,22,-22]));
+console.log('Bubble sort test case 1 : ' + bubbleSort([5,3,8,2,1,4]));
+console.log('Bubble sort test case 2 : '+ bubbleSort([20,20,3,56,1,22,22]));
+console.log('Bubble sort test case 3 : '+ bubbleSort([20,-20,3,-56,1,22,-22]));
