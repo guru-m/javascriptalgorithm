@@ -1,17 +1,20 @@
-function isPalindrome(string){
-    // alert('');
-string =string.toLowerCase();
-var charecterArray=string.split(' ');
-var validCharecter='abcdefghijklmnopqrstuvwxyz';
-var letterArray=[];
-charecterArray.forEach(element => {
+function isPalindrome(string) {
+    string = string.toLowerCase();
+    var charecterArray = string.split('');
+    var validCharecters = 'abcdefghijklmnopqrstuvwxyz'.split('');
 
-    if(validCharecter.indexOf(element) > -1){
-        letterArray.push(element);
-    }
-    if(letterArray.join(' ') === letterArray.reverse().join(' ')) return true;
-    else return false;
-});
+    var letterArray = [];
+    charecterArray.forEach(element => {
+
+        if (validCharecters.indexOf(element) > -1) {
+            letterArray.push(element);}
+        });
+
+        if (letterArray.join('') === letterArray.reverse().join('')) {
+            return true;
+        }
+        else { return false; }
+   
 }
 
 console.log(isPalindrome("Madam I'm adam"));
